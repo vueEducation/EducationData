@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div class="class">
     <div class="class-nav">
       <div class="class-all">课</div>
@@ -12,11 +13,14 @@
         <i></i>
       </div>
     </div>
+=======
+  <div class="hello">
+>>>>>>> 90f50e171047456927bfdca7827f119c754fd2a7
   </div>
 </template>
-
 <script>
 export default {
+<<<<<<< HEAD
   name: 'HelloWorld',
   data () {
     return {
@@ -34,4 +38,10 @@ export default {
   .class .class-nav{
 
   }
+=======
+  name: 'HelloWorld'
+}
+</script>
+<style>
+>>>>>>> 90f50e171047456927bfdca7827f119c754fd2a7
 </style>
