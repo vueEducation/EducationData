@@ -1,15 +1,34 @@
 <template>
+<<<<<<< HEAD
+  <div class="class">
+    <div class="class-nav">
+      <div class="class-all">课</div>
+      <div class="class-scroll">
+         <ul>
+          <li></li>
+        </ul>
+      </div>
+     
+      <div class="class-choose">
+        <i></i>
+      </div>
+    </div>
+=======
   <div class="hello">
+<<<<<<< HEAD
     
+=======
+>>>>>>> 90f50e171047456927bfdca7827f119c754fd2a7
+>>>>>>> 243325931c23cad0c8eb297c14bffbe1da6388dc
   </div>
 </template>
-
 <script>
 export default {
+<<<<<<< HEAD
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      
     }
   }
 }
@@ -17,18 +36,16 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
-  font-weight: normal;
+  .class{
+    width: 100vw;
+  }
+  .class .class-nav{
+
+  }
+=======
+  name: 'HelloWorld'
 }
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+</script>
+<style>
+>>>>>>> 90f50e171047456927bfdca7827f119c754fd2a7
 </style>

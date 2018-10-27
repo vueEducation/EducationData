@@ -1,0 +1,10 @@
+const express = reqiuer('express')
+const app = express()
+const fs = require('fs')
+let bodyparser = requier('body-parser')
+app.use(bodyparser.urlencoded({extended: false}))
+app.use(bodyparser.json())
+app.listen(8090)
+app.get('/',function(req,res){
+    res.send('首页')
+})
