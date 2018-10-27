@@ -1,8 +1,11 @@
 {
     "nav":{
         "title":{
-            "allname":"课",
             "content":[
+                {
+                    "name":"课",
+                    "nameval":""
+                },
                 {
                     "name":"专题",
                     "nameval":""
@@ -31,12 +34,14 @@
                     "name":"录播课",
                     "nameval":""
                 }
-            ],
-            "moer":"高二"
+            ]
         },
         "title1":{
-            "allname":"全部",
             "content":[
+                {
+                    "name":"全部",
+                    "nameval":""
+                },
                 {
                     "name":"数学",
                     "nameval":""
@@ -65,8 +70,18 @@
                     "name":"物理",
                     "nameval":""
                 }
-            ],
-            "moer":"筛选"
+            ]
         }
-    }
+    },
+    "swiper":[
+        {
+            "imgurl":"https://ss0.baidu.com/7Po3dSag_xI4khGko9WTAnF6hhy/image/h%3D300/sign=b12ec0dd93510fb367197197e932c893/b999a9014c086e064a76b12f0f087bf40bd1cbfc.jpg"
+        },
+        {
+            "imgurl":"https://ss1.baidu.com/9vo3dSag_xI4khGko9WTAnF6hhy/image/h%3D300/sign=504c7d57bd51f819ee25054aeab54a76/d6ca7bcb0a46f21fd757a52ffb246b600c33ae6f.jpg"
+        },
+        {
+            "imgurl":"https://ss3.baidu.com/-fo3dSag_xI4khGko9WTAnF6hhy/image/h%3D300/sign=8f27e5b05f66d01661199828a72ad498/8601a18b87d6277f28d3544525381f30e824fc8e.jpg"
+        }
+    ]
 }

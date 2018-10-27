@@ -1,48 +1,48 @@
 <template>
     <div class="nav">
-        <div class="nav-all">课</div>
-        <scroll class="nav-scroll">
-            <ul>
-                <li>11111</li>
+        <scroll class="nav-scroll" ref="scroll">
+            <ul class="nav-list">
+                <li v-for="(item,index) in navdata" :key="index">{{item.name}}</li>
             </ul>
         </scroll>
-        <div class="nav-more">
-            <span></span>
-        </div>
     </div>
 </template>
 <script>
 export default {
-    name: 'navt'
+    name: 'navt',
+    props: {
+        navdata: {
+            type: Array,
+            return () {
+                []
+            }
+        }
+    }
 }
 </script>
 <style>
     .nav{
-        width: 100%;
-        height:100%;
+        flex:1;
         display:flex;
-    }
-    .nav .nav-all{
-        width: 60px;
-        height:100%;
-        background-color: #fff;
-        text-align:center;
-        line-height:50px;
-        font-size:15px;
-        font-weight:700;
     }
     .nav .nav-scroll{
         flex:1;
+        overflow:hidden;
     }
-    .nav .nav-more{
-        width: 70px;
-        height:100%;
-        background-color: #fff;
+    .nav .nav-scroll  .nav-list{
+        width:160%;
+        height:50px;
+        list-style:none;
+        color:#9a9a9a;
+        padding-left:20px;
+    }
+    .nav .nav-scroll  .nav-list li{
+        float:left;
         line-height:50px;
         font-size:15px;
         font-weight:700;
+        margin-right: 20px;
     }
-
 </style>
 
 

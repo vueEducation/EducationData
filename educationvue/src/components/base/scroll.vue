@@ -11,11 +11,11 @@
 		props: {
 			scrollY: {
 				type:Boolean,
-				default:true
+				default:false
 			},
 			scrollX: {
 				type:Boolean,
-				default:false
+				default:true
 			},
 			click: {
 				type:Boolean,
@@ -30,7 +30,8 @@
 			let wrapper = this.$refs.wrapper
 			this.scroll = new BScroll(wrapper,{
 				click:this.click,
-				probeType:this.probeType
+                probeType:this.probeType,
+                scrollX: true
 			})
 			this.scroll.on('scroll',position => {
 				this.$emit('scroll',position)
