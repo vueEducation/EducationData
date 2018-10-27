@@ -18,6 +18,18 @@
                 {
                     "name":"录播课",
                     "nameval":""
+                },
+                {
+                    "name":"讲座",
+                    "nameval":""
+                },
+                {
+                    "name":"一对一",
+                    "nameval":""
+                },
+                {
+                    "name":"录播课",
+                    "nameval":""
                 }
             ],
             "moer":"高二"
@@ -39,6 +51,18 @@
                 },
                 {
                     "name":"化学",
+                    "nameval":""
+                },
+                {
+                    "name":"生物",
+                    "nameval":""
+                },
+                {
+                    "name":"地理",
+                    "nameval":""
+                },
+                {
+                    "name":"物理",
                     "nameval":""
                 }
             ],

@@ -18,26 +18,29 @@ export default new Router({
     },
     {
       path: '/home',
-      name: 'home',
       component: home,
       children: [
         {
-          path: '/classt',
+          path: '',
+          redirect: 'classt'
+        },
+        {
+          path: 'classt',
           name: 'classt',
           component: classt
         },
         {
-          path: '/find',
+          path: 'find',
           name: 'find',
           component: find
         },
         {
-          path: '/me',
+          path: 'me',
           name: 'me',
           component: me
         },
         {
-          path: '/study',
+          path: 'study',
           name: 'study',
           component: study
         }
