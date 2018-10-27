@@ -1,13 +1,15 @@
 <template>
-    <div class="classt">
+    <div class="nav">
         
     </div>
 </template>
 <script>
 export default {
-    name: 'classt'
+    name: 'nav'
 }
 </script>
 <style>
 
 </style>
+
+
